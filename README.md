@@ -1,16 +1,15 @@
-## Hi there 👋
+# ⚡️ Ansar Zeinulla
 
-<!--
-**ansarzeinulla/ansarzeinulla** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am a Systems & AI Researcher at Nazarbayev University bridging complex mathematical theory with highly optimized, low-level execution. I specialize in C++ high-performance computing, WebAssembly, and hardware-aware deep learning optimizations on constrained silicon (Apple MLX).
 
-Here are some ideas to get you started:
+### 🔬 Current Research
+* **[NogaiLLM: Curing Catastrophic Forgetting in Zero-Resource Turkic NLP](https://github.com/ansarzeinulla/NogaiLLM-Apple-Silicon)** | *Under Review: ACM TALLIP*
+  * Engineered a memory-safe Apple MLX pipeline to execute Parameter-Efficient Continuous Pre-Training (CPT) and Supervised Fine-Tuning (SFT) natively on consumer hardware.
+* **[9Q Engine: Strongly Bounding a $1.51 \times 10^{25}$ Game Tree](https://github.com/ansarzeinulla/Togyzkumalak-Wasm-Engine)** | *Under Review: IEEE ToG*
+  * Built a 1-billion game C++ Minimax engine with 16-byte aligned Transposition Tables, mathematically bounding the state-space and cross-compiling to WebAssembly (186K+ NPS).
+* **Upcoming:** Strongly solving "Bestemshe" via Retrograde Analysis (15GB Tablebase) and introducing RCL-ZERO (Retrograde Curriculum Learning for DAG-game Neural Networks).
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🛠️ Tech Stack
+**Languages:** C++, Python, SQL
+**AI & Hardware Optimization:** Apple MLX, PyTorch, QLoRA, Tensor Casting, PEFT
+**Systems:** WebAssembly (Emscripten), Multi-threading, CMake, GitHub Actions CI/CD, GTest
