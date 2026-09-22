@@ -9,7 +9,7 @@ I am a Systems & AI Researcher at Nazarbayev University, bridging complex combin
   * Achieved **3.64 TOPS** on an M2 Pro (outperforming Apple's `cblas_sgemm` by **2.65x** during batched prompt ingestion) with an 8x reduction in memory bandwidth footprint.
   * Engineered a dynamic silicon capability probe to safely dispatch undocumented `matint` opcodes and vectorized K-block accumulations, bypassing silent hardware faults across M1/M2/M3 architectures.
 
-* **[9Q Engine: Bounding a $10^{25}$ Game Tree](https://github.com/ansarzeinulla/9Q)** | *Under Review: IEEE Transactions on Games*
+* **[9Q Engine: Bounding a $10^{25}$ Game Tree](https://github.com/ansarzeinulla/9Q)** | *Under Review: ICGA Journal *
   * Calculated the exact state-space complexity upper bound of the asymmetric mancala game *Togyzkumalak*.
   * Built a concurrent 1-billion game C++ Minimax engine with 16-byte aligned Zobrist Transposition Tables. Cross-compiled the search core to WebAssembly with dynamic JavaScript memory hooks (1.43M NPS native, 0.85M NPS Wasm).
 
