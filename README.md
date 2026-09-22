@@ -9,9 +9,12 @@ I am a Systems & AI Researcher at Nazarbayev University, bridging complex combin
   * Achieved **3.64 TOPS** on an M2 Pro (outperforming Apple's `cblas_sgemm` by **2.65x** during batched prompt ingestion) with an 8x reduction in memory bandwidth footprint.
   * Engineered a dynamic silicon capability probe to safely dispatch undocumented `matint` opcodes and vectorized K-block accumulations, bypassing silent hardware faults across M1/M2/M3 architectures.
 
-* **[9Q Engine: Bounding a $10^{25}$ Game Tree](https://github.com/ansarzeinulla/9Q)** | *Under Review: ICGA Journal *
-  * Calculated the exact state-space complexity upper bound of the asymmetric mancala game *Togyzkumalak*.
-  * Built a concurrent 1-billion game C++ Minimax engine with 16-byte aligned Zobrist Transposition Tables. Cross-compiled the search core to WebAssembly with dynamic JavaScript memory hooks (1.43M NPS native, 0.85M NPS Wasm).
+* **[9Q: Togyzkumalak complexity and engine](https://github.com/ansarzeinulla/9Q)** | *Under review: ICGA Journal*
+  * Upper bound of 1.51×10²⁵ on the state space.
+  * Exhaustive search showing no game ends before half-move 11.
+  * Statistics from 10⁹ random playouts.
+  * Alpha-beta engine with a compact 16-byte transposition table, compiled to WebAssembly ([live demo](https://9qumalaq.vercel.app/)).
+  * The early-game search table is independently reproduced by a separately written implementation.
 
 * **[NogaiLLM: Curing Catastrophic Forgetting](https://github.com/ansarzeinulla/NogaiLLM-Apple-Silicon)** | *Under Review: ACM TALLIP*
   * Formulated an end-to-end NLP framework for zero-resource Turkic language adaptation (Qwen-2.5 1.5B).
