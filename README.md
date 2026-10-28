@@ -21,8 +21,8 @@ BSc Computer Science student at Nazarbayev University (Astana). I work on low-le
   * Built a 163,531-row Nogai text corpus (2.35 M words) from newspapers, Bible translations and Wikipedia, plus Russian–Nogai instruction data with a leakage-free split.
   * Adapted Qwen2.5-1.5B in two LoRA stages (continued pre-training, then SFT) on a 16 GB Apple M2 Pro with `mlx-lm`; corpus, adapters and a demo are on [Hugging Face](https://huggingface.co/ansarzeinulla).
 
-* **[llama.cpp PR #27589](https://github.com/ggml-org/llama.cpp/pull/27589)** | *Open, awaiting review*
-  * 8×8 `i8mm` (SMMLA) GEMM for ternary `TQ2_0` weights on ARM: +85.6% prompt processing on an M2 Pro, bit-identical perplexity.
+* **[llama.cpp PR #27589](https://github.com/ggml-org/llama.cpp/pull/27589)** | *Approved by the Arm reviewer, awaiting merge*
+  * 8×8 `i8mm` (SMMLA) GEMM for ternary `TQ2_0` weights on ARM: +79% prompt processing on an M2 Pro (73 → 131 tokens/s), bit-identical perplexity.
 
 * **[Bestemshe](https://github.com/ansarzeinulla/Bestemshe)** | *Paper in preparation*
   * Strong solution of Bestemshe, a 5-pit Kazakh mancala: forced win for the second player, via retrograde analysis.
