@@ -10,7 +10,7 @@ BSc Computer Science student at Nazarbayev University (Astana). I work on low-le
   * Faster than Accelerate only for batched inputs (e.g. 1.51× at batch 16 on a Llama-3-8B MLP block); slower for single-token decode, where weight decompression dominates.
   * Probes undocumented instruction behaviour at runtime and falls back safely. Verified on M2 Pro only.
 
-* **[9Q: Togyzkumalak complexity and engine](https://github.com/ansarzeinulla/9Q)** | *Under review: ICGA Journal*
+* **[9Q: Togyzkumalak complexity and engine](https://github.com/ansarzeinulla/9Q)** | *Full paper in preparation*
   * Upper bound of 1.51×10²⁵ on the state space.
   * Exhaustive search showing no game ends before half-move 11.
   * Statistics from 10⁹ random playouts.
